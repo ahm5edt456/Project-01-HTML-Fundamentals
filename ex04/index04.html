@@ -2,80 +2,96 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" contant="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Form</title>
     </head>
 
     <body>
         <h1>Form 42</h1>
+
         <form>
             <label for="fullname">Full Name:</label><br>
-            <input type="text" id="fullname"
-            name="fullname"
-            required
-            minlength="3">
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                required
+                minlength="3"
+            >
 
             <br><br>
 
             <label for="email">Email:</label><br>
-            <input type="email" id="email"
-            name="email"
-            required>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
 
             <br><br>
 
             <label for="password">Password:</label><br>
-            <input type="password" id="password"
-            name="password"
-            required
-            minlength="8">
+            <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                minlength="8"
+            >
 
             <br><br>
 
-            <label for="42Irbid">42Irbid</label>
-            <input type="radio"
-            id="42Irbid" name="campus"
-            value="42Irbid"
-            required>
+            <label for="42Irbid">42 Irbid</label>
+            <input
+                type="radio"
+                id="42Irbid"
+                name="campus"
+                value="42Irbid"
+                required
+            >
 
-            <label for="42Amman">42Amman</label>
-            <input type="radio"
-            id="42Amman" name="campus"
-            value="42Amman"
-            required>
+            <label for="42Amman">42 Amman</label>
+            <input
+                type="radio"
+                id="42Amman"
+                name="campus"
+                value="42Amman"
+            >
 
             <br><br>
 
-            <label for="programing">Programing:</label>
-            <select id="programing" name="programing" required>
-                <option value="">Choose a programing</option>
-                <option value="piscine">piscine</option>
-                <option value="core">core</option>
+            <label for="programming">Programming:</label>
+            <select id="programming" name="programming" required>
+                <option value="">Choose a program</option>
+                <option value="piscine">Piscine</option>
+                <option value="core">Core</option>
             </select>
 
             <br><br>
 
-            <label for="bio">About you:</label>
-            <br>
-            <textarea id="bio"
-            name="bio"
-            minlength="10"
-            required></textarea>
+            <label for="bio">About You:</label><br>
+            <textarea
+                id="bio"
+                name="bio"
+                minlength="10"
+                required
+            ></textarea>
 
             <br><br>
 
-            <input 
-            type="checkbox"
-            id="agreement"
-            name="agreement"
-            required>
+            <input
+                type="checkbox"
+                id="agreement"
+                name="agreement"
+                required
+            >
 
-            <label for="agreement">I gree to the trems</label>
-            
+            <label for="agreement">I agree to the terms</label>
 
             <br><br>
 
-            <button type="submit">Submiit</button>
+            <button type="submit">Submit</button>
         </form>
     </body>
 </html>
