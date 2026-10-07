@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" contant="width=device-width, initial-scale=1.0">
+        <title>My Form</title>
+    </head>
+
+    <body>
+        <h1>Form 42</h1>
+        <from>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname"
+            name="fullname"
+            required
+            minlength="3">
+
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"
+            name="email"
+            required>
+
+            <br><br>
+
+            <labal for="password">Password:</labal><br>
+            <input type="password" id="password"
+            name="password"
+            required
+            minlength="8">
+
+            <br><br>
+
+            <labal for="42Irbid">42Irbid</labal>
+            <input type="radio"
+            id="42Irbid" name="campus"
+            value="42Irbid"
+            required>
+
+            <labal for="42Amman">42Amman</labal>
+            <input type="radio"
+            id="42Amman" name="campus"
+            value="42Amman"
+            required>
+
+            <br><br>
+
+            <label for="programing">Programing:</label>
+            <select id="programing" name="programing" required>
+                <option value="">Choose a programing</option>
+                <option value="piscine">piscine</option>
+                <option value="core">core</option>
+            </select>
+
+            <br><br>
+
+            <labal for="bio">About you:</labal>
+            <br>
+            <textarea id="bio"
+            name="bio"
+            minlength="10"
+            required></textarea>
+
+            <br><br>
+
+            <input 
+            type="checkbox"
+            id="agreement"
+            name="agreement"
+            required>
+
+            <label for="agreement">I gree to the trems</label>
+            
+
+            <br><br>
+
+            <button type="submit">Submiit</button>
+        </from>
+    </body>
+</html>
